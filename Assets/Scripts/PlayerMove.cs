@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    [SerializeField] private bool _isMoving;
     [SerializeField] private float _playerSpeed;
+    public bool isMoving;
     public static PlayerMove Instance;
     private void Awake()
     {
