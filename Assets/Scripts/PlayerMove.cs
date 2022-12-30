@@ -20,7 +20,7 @@ public class PlayerMove : MonoBehaviour
     }
     private void Update()
     {
-        if (!_isMoving) return;
+        if (!isMoving) return;
         transform.Translate(Vector3.forward * _playerSpeed * Time.deltaTime);
     }
 
